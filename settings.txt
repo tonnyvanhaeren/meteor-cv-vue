@@ -1,0 +1,15 @@
+add these exact settings to a new file settings.json
+and use as => npm start
+in public environement only client side variables
+
+
+{
+  "userAdmin": {
+    "username": "",
+    "password": "",
+    "email": ""
+  },
+  "public": {
+    
+  }
+}

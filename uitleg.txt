@@ -1,0 +1,40 @@
+# bundle-visualizer
+
+meteor add bundle-visualizer
+
+## run
+
+meteor --extra-packages bundle-visualizer --production
+
+Disabling
+
+If you used --extra-packages, simply remove bundle-visualizer from the list of included packages and run meteor as normal.
+
+
+### bootstrap5
+
+# install NPM dependencies
+meteor npm install --save bootstrap popper.js jquery
+meteor npm install --save @fortawesome/fontawesome-free # optional, if using FA 5
+meteor npm install --save @popperjs/core
+meteor npm i bootstrap-icons
+
+# install meteor packages
+meteor add discomania:autoform-bootstrap5 jquery@3.0.0!
+meteor add fortawesome:fontawesome # optional, if using FA4
+
+
+meteor add fourseven:scss
+meteor add akryum:vue-sass
+
+meteor add accounts-password
+
+meteor npm i bcrypt
+
+
+
+### vs code
+~/.config/Code/User/settings.json
+
+
+ 
